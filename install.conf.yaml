@@ -4,14 +4,14 @@
 
 - clean: ['~']
 
-#- link:
+- link:
 #    ~/.tmux.conf: tmux.conf
 #    ~/.vim: vim
 #    ~/.vimrc: vimrc
+    ~/.zshrc: zshrc
 
 - create:
      - ~/Work
-     - ~/hey/you/guys
 #   - ~/downloads
 #   - ~/.vim/undo-history
 
