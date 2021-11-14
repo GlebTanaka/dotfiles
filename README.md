@@ -14,3 +14,4 @@ I'm learning about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz)
 - Changes modifier Key Caps Lock to Escape
 - .zshrc
 - Git (config and SSH)
+- Homebrew Install
