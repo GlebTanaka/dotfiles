@@ -1,2 +1,4 @@
 # Ignore the installed plugins
 vim/plugged/**
+# Ignore Brefile.lock.json
+Brewfile.lock.json
