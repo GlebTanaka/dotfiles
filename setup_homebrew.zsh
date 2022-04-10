@@ -6,3 +6,6 @@ echo "\n<<< Starting Homebrew Setup >>>\n"
 
 brew install httpie
 brew install bat
+
+brew install --no-quarantine visual-studio-code
+brew install --no-quarantine alfred
