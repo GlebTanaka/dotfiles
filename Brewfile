@@ -15,6 +15,8 @@ brew "git"
 brew "git-lfs"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Terminal multiplexer
+brew "tmux"
 # Application launcher and productivity software
 cask "alfred"
 cask "android-sdk"
