@@ -15,6 +15,8 @@ brew "git"
 brew "git-lfs"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Mac App Store command-line interface
+brew "mas"
 # Terminal multiplexer
 brew "tmux"
 # Application launcher and productivity software
@@ -26,3 +28,12 @@ cask "dropbox"
 cask "gitkraken"
 # Open-source code editor
 cask "visual-studio-code"
+mas "BetterSnapTool", id: 417375580
+mas "HiSuite", id: 1232508288
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "MKPlayer", id: 1335612105
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "The Unarchiver", id: 425424353
+mas "Xcode", id: 497799835
