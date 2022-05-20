@@ -29,7 +29,6 @@ cask "gitkraken"
 # Open-source code editor
 cask "visual-studio-code"
 mas "BetterSnapTool", id: 417375580
-mas "HiSuite", id: 1232508288
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "MKPlayer", id: 1335612105
