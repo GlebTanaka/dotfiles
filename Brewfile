@@ -26,6 +26,7 @@ cask "android-sdk"
 cask "dropbox"
 # Git client focusing on productivity
 cask "gitkraken"
+cask "inkdrop"
 # Open-source code editor
 cask "visual-studio-code"
 mas "BetterSnapTool", id: 417375580
