@@ -1,12 +1,35 @@
 let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-1 siso=-1
 argglobal
+let s:cpo_save=&cpo
+set cpo&vim
+nmap <buffer>  <Plug>NetrwHideEdit
+nmap <buffer> <nowait> <silent>  <Plug>NetrwRefresh
+nmap <buffer> <nowait> <silent>  <Plug>NetrwLocalBrowseCheck
+nmap <buffer> <nowait> <silent>  <Plug>NetrwServerEdit
+nmap <buffer> <nowait> <silent> % <Plug>NetrwOpenFile
+nmap <buffer> <nowait> <silent> - <Plug>NetrwBrowseUpDir
+nmap <buffer> <nowait> <silent> C <Plug>NetrwSetChgwin
+nmap <buffer> <nowait> <silent> a <Plug>NetrwHide_a
+nmap <buffer> <nowait> <silent> cd <Plug>NetrwLcd
+nmap <buffer> <nowait> <silent> cB <Plug>NetrwBadd_cB
+nmap <buffer> <nowait> <silent> cb <Plug>NetrwBadd_cb
+nmap <buffer> <nowait> <silent> gb <Plug>NetrwBookHistHandler_gb
+nnoremap <buffer> <F1> :he netrw-quickhelp
+nmap <buffer> <nowait> <silent> <S-CR> <Plug>NetrwTreeSqueeze
+nnoremap <buffer> <silent> <S-Up> :Pexplore
+nnoremap <buffer> <silent> <S-Down> :Nexplore
+nmap <buffer> <C-H> <Plug>NetrwHideEdit
+nmap <buffer> <nowait> <silent> <C-R> <Plug>NetrwServerEdit
+nmap <buffer> <nowait> <silent> <C-L> <Plug>NetrwRefresh
+let &cpo=s:cpo_save
+unlet s:cpo_save
 setlocal autoindent
 setlocal backupcopy=
 setlocal nobinary
 setlocal nobreakindent
 setlocal breakindentopt=
-setlocal bufhidden=
-setlocal buflisted
+setlocal bufhidden=hide
+setlocal nobuflisted
 setlocal buftype=
 setlocal nocindent
 setlocal cinkeys=0{,0},0),0],:,0#,!^F,o,O,e
@@ -21,7 +44,7 @@ setlocal nocopyindent
 setlocal cryptmethod=
 setlocal nocursorbind
 setlocal nocursorcolumn
-setlocal nocursorline
+setlocal cursorline
 setlocal cursorlineopt=both
 setlocal define=
 setlocal dictionary=
@@ -29,8 +52,8 @@ setlocal nodiff
 setlocal equalprg=
 setlocal errorformat=
 setlocal expandtab
-if &filetype != 'yaml'
-setlocal filetype=yaml
+if &filetype != 'netrw'
+setlocal filetype=netrw
 endif
 setlocal fixendofline
 setlocal foldcolumn=0
@@ -66,17 +89,17 @@ setlocal makeencoding=
 setlocal makeprg=
 setlocal matchpairs=(:),{:},[:]
 setlocal modeline
-setlocal modifiable
+setlocal nomodifiable
 setlocal nrformats=bin,octal,hex
-setlocal number
+setlocal nonumber
 setlocal numberwidth=4
 setlocal omnifunc=
 setlocal path=
 setlocal nopreserveindent
 setlocal nopreviewwindow
 setlocal quoteescape=\\
-setlocal noreadonly
-setlocal relativenumber
+setlocal readonly
+setlocal norelativenumber
 setlocal noscrollbind
 setlocal scrolloff=-1
 setlocal shiftwidth=4
@@ -95,8 +118,8 @@ setlocal statusline=%!airline#statusline(1)
 setlocal suffixesadd=
 setlocal noswapfile
 setlocal synmaxcol=3000
-if &syntax != 'yaml'
-setlocal syntax=yaml
+if &syntax != 'netrw'
+setlocal syntax=netrw
 endif
 setlocal tabstop=4
 setlocal tagcase=
@@ -116,12 +139,13 @@ setlocal nowrap
 setlocal wrapmargin=0
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 12 - ((11 * winheight(0) + 27) / 54)
+let s:l = 8 - ((7 * winheight(0) + 27) / 54)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 12
-normal! 014|
+keepjumps 8
+normal! 0
+lcd ~/.local/share
 let &g:so = s:so_save | let &g:siso = s:siso_save
 nohlsearch
 doautoall SessionLoadPost
