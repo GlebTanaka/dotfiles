@@ -13,10 +13,14 @@ brew "exa"
 brew "git"
 # Git extension for versioning large files
 brew "git-lfs"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Mac App Store command-line interface
 brew "mas"
+# Java-based project management
+brew "maven"
 # Terminal multiplexer
 brew "tmux"
 # Application launcher and productivity software
@@ -26,6 +30,7 @@ cask "android-sdk"
 cask "dropbox"
 # Git client focusing on productivity
 cask "gitkraken"
+# Markdown editor
 cask "inkdrop"
 # Open-source code editor
 cask "visual-studio-code"
