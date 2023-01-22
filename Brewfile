@@ -34,6 +34,8 @@ cask "dropbox"
 cask "gitkraken"
 # Markdown editor
 cask "inkdrop"
+# Collaboration platform for API development
+cask "postman"
 # Open-source code editor
 cask "visual-studio-code"
 mas "BetterSnapTool", id: 417375580
