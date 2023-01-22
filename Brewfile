@@ -13,6 +13,8 @@ brew "exa"
 brew "git"
 # Git extension for versioning large files
 brew "git-lfs"
+# Open-source build automation tool based on the Groovy and Kotlin DSL
+brew "gradle"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.10"
 # User-friendly cURL replacement (command-line HTTP client)
