@@ -19,6 +19,8 @@ brew "gradle"
 brew "python@3.10"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# GUI for vim, made for macOS
+brew "macvim"
 # Mac App Store command-line interface
 brew "mas"
 # Java-based project management
