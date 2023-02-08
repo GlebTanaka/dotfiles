@@ -36,7 +36,8 @@ set background=dark
 " trancparentsy                                                         
 let t:is_transparent=0                                                  
 " fontsize                                                              
-set guifont=Monaco:h14                                                  
+set guifont=Comic_Code:h14                                                  
+
                                                                         
 " *file find*                                                               
 " - search down into subfolders                                             
