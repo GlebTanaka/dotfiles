@@ -25,6 +25,8 @@ brew "macvim"
 brew "mas"
 # Java-based project management
 brew "maven"
+# Node version management
+brew "n"
 # Terminal multiplexer
 brew "tmux"
 # Application launcher and productivity software
@@ -46,5 +48,4 @@ mas "Keynote", id: 409183694
 mas "MKPlayer", id: 1335612105
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "The Unarchiver", id: 425424353
 mas "Xcode", id: 497799835
