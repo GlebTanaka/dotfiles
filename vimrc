@@ -10,6 +10,8 @@ Plug 'dhruvasagar/vim-table-mode'
 Plug 'tpope/vim-fugitive'                                  
 " https://github.com/vim-airline/vim-airline               
 Plug 'vim-airline/vim-airline'                             
+" https://github.com/vimwiki/vimwiki
+Plug 'vimwiki/vimwiki'
 " Initialize plugin system                                 
 call plug#end()                                            
                                                            
@@ -18,6 +20,17 @@ call plug#end()
 autocmd BufWinLeave *.* mkview                             
 autocmd BufWinEnter *.* silent loadview
 
+" *Vimwiki*
+set nocompatible
+filetype plugin on
+" Conceal preformatted text markers.
+let g:vimwiki_conceal_pre=1
+" Link Dirays to Index automaticly.
+let g:vimwiki_list=[{'auto_diary_index': 1}]
+" use Markdown's wiki markup
+"let g:vimwiki_list = [{'path': '~/my_site/',
+"                    \ 'syntax': 'markdown', 'ext': '.md'}]
+"
 " *appearance*                                                          
 " - enable syntax highlighting                                          
 syntax on                                                               
