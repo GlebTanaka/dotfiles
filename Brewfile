@@ -3,8 +3,6 @@ tap "homebrew/cask"
 tap "homebrew/core"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Powerful, clean, object-oriented scripting language
-brew "ruby"
 # Dependency manager for Cocoa projects
 brew "cocoapods"
 # Modern replacement for 'ls'
@@ -13,12 +11,16 @@ brew "exa"
 brew "git"
 # Git extension for versioning large files
 brew "git-lfs"
+# Development kit for the Java programming language
+brew "openjdk@17"
 # Open-source build automation tool based on the Groovy and Kotlin DSL
 brew "gradle"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.10"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
 # GUI for vim, made for macOS
 brew "macvim"
 # Mac App Store command-line interface
@@ -27,10 +29,13 @@ brew "mas"
 brew "maven"
 # Node version management
 brew "n"
+# Highly capable, feature-rich programming language
+brew "perl"
 # Terminal multiplexer
 brew "tmux"
 # Application launcher and productivity software
 cask "alfred"
+# Tools for the Android SDK
 cask "android-sdk"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
