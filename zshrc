@@ -16,7 +16,9 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 export N_PREFIX="$HOME/.n"
 export PREFIX="$N_PREFIX"
 ## for CoreNLP library
-
+export CLASSPATH="/Users/glebtanaka/stanford-corenlp-4.5.4/*"
+## for postgreSQL
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 # Change ZSH Options
 
 # Create Aliases

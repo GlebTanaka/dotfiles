@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =5
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Users/glebtanaka/ner-training/ner-tools/stanford-ner'
 let g:netrw_dirhist_5='/Users/glebtanaka/stanford-corenlp-4.5.4'
 let g:netrw_dirhist_4='/Users/glebtanaka/stanford-corenlp-4.5.4/patterns'
 let g:netrw_dirhist_3='/Users/glebtanaka/stanford-corenlp-4.5.4'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_0='/Users/glebtanaka/stanford-corenlp-4.5.4/tokensregex'
 let g:netrw_dirhist_9='/Users/glebtanaka/stanford-corenlp-4.5.4'
 let g:netrw_dirhist_8='/Library/Java/JavaVirtualMachines/jdk1.8.0_361.jdk'
 let g:netrw_dirhist_7='/Library/Java/JavaVirtualMachines'
-let g:netrw_dirhist_6='/Library/Java'

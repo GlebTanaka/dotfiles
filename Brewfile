@@ -31,6 +31,8 @@ brew "maven"
 brew "n"
 # Highly capable, feature-rich programming language
 brew "perl"
+# Object-relational database system
+brew "postgresql@15"
 # Terminal multiplexer
 brew "tmux"
 # Application launcher and productivity software
