@@ -19,6 +19,8 @@ export PREFIX="$N_PREFIX"
 export CLASSPATH="/Users/glebtanaka/stanford-corenlp-4.5.4/*"
 ## for postgreSQL
 export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+## for Anaconda
+export PATH="/opt/homebrew/anaconda3/bin:$PATH"
 # Change ZSH Options
 
 # Create Aliases

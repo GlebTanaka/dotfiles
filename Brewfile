@@ -37,6 +37,8 @@ brew "postgresql@15"
 brew "tmux"
 # Application launcher and productivity software
 cask "alfred"
+# Distribution of the Python and R programming languages for scientific computing
+cask "anaconda"
 # Tools for the Android SDK
 cask "android-sdk"
 # Client for the Dropbox cloud storage service
