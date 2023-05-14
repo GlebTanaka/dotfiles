@@ -45,6 +45,8 @@ cask "android-sdk"
 cask "dropbox"
 # Git client focusing on productivity
 cask "gitkraken"
+# Web browser
+cask "google-chrome"
 # Markdown editor
 cask "inkdrop"
 # Collaboration platform for API development
