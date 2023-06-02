@@ -1,10 +1,16 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Microsoft Azure CLI 2.0
+brew "azure-cli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Dependency manager for Cocoa projects
 brew "cocoapods"
+# C library implementing the SSH2 protocol
+brew "libssh2"
 # Modern replacement for 'ls'
 brew "exa"
 # Distributed revision control system
@@ -16,15 +22,15 @@ brew "openjdk@17"
 # Open-source build automation tool based on the Groovy and Kotlin DSL
 brew "gradle"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.10"
+brew "python@3.11"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.11"
 # GUI for vim, made for macOS
 brew "macvim"
 # Mac App Store command-line interface
 brew "mas"
+# Development kit for the Java programming language
+brew "openjdk"
 # Java-based project management
 brew "maven"
 # Node version management
@@ -35,6 +41,8 @@ brew "perl"
 brew "postgresql@15"
 # Terminal multiplexer
 brew "tmux"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # Application launcher and productivity software
 cask "alfred"
 # Distribution of the Python and R programming languages for scientific computing
