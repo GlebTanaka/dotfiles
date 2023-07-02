@@ -6,6 +6,8 @@ Plug 'vim-utils/vim-man'
 Plug 'mbbill/undotree'                                     
 " https://github.com/dhruvasagar/vim-table-mode            
 Plug 'dhruvasagar/vim-table-mode'                          
+" https://github.com/tpope/vim-commentary
+Plug 'tpope/vim-commentary'
 " https://github.com/tpope/vim-fugitive                    
 Plug 'tpope/vim-fugitive'                                  
 " https://github.com/vim-airline/vim-airline               

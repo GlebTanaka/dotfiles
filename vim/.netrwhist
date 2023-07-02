@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/Users/glebtanaka/Documents/Practical_Vim/code/the_vim_way'
+let g:netrw_dirhist_9='/Users/glebtanaka/Documents/Practical_Vim/code'
+let g:netrw_dirhist_8='/Users/glebtanaka/Documents/Practical_Vim'
 let g:netrw_dirhist_7='/opt/homebrew/anaconda3/envs/dvc_env/lib/python3.11/site-packages/spacy'
 let g:netrw_dirhist_6='/opt/homebrew/anaconda3/envs/dvc_env/lib/python3.11/site-packages/spacy/ml'
 let g:netrw_dirhist_5='/opt/homebrew/anaconda3/envs/dvc_env/lib/python3.11/site-packages/spacy/ml/models'
@@ -7,6 +10,3 @@ let g:netrw_dirhist_4='/opt/homebrew/anaconda3/envs/dvc_env/lib/python3.11/site-
 let g:netrw_dirhist_3='/opt/homebrew/anaconda3/envs/dvc_env/lib/python3.11/site-packages/spacy'
 let g:netrw_dirhist_2='/opt/homebrew/anaconda3/envs/dvc_env/lib/python3.11/site-packages/spacy/pipeline'
 let g:netrw_dirhist_1='/opt/homebrew/anaconda3/envs/dvc_env/lib/python3.11/site-packages/spacy'
-let g:netrw_dirhist_0='/opt/homebrew/anaconda3/envs/dvc_env/lib/python3.11/site-packages'
-let g:netrw_dirhist_9='/opt/homebrew/anaconda3/envs/dvc_env/lib/python3.11'
-let g:netrw_dirhist_8='/opt/homebrew/anaconda3/envs/dvc_env/bin'
