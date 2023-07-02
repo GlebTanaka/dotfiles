@@ -1,4 +1,8 @@
 # Ignore the installed plugins
 vim/plugged/**
+# Ignore vim/view files
+vim/view/**
+# Ignore netrwhist
+vim/.netrwhist
 # Ignore Brefile.lock.json
 Brewfile.lock.json
