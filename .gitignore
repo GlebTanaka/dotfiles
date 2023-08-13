@@ -1,3 +1,5 @@
+# Ignore installed plugin for neovim
+config/nvim/**
 # Ignore the installed plugins
 vim/plugged/**
 # Ignore vim/view files

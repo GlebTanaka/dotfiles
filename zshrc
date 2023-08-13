@@ -21,6 +21,8 @@ export CLASSPATH="/Users/glebtanaka/stanford-corenlp-4.5.4/*"
 export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 ## for Anaconda
 # export PATH="/opt/homebrew/anaconda3/bin:$PATH"  # commented out by conda initialize
+## for neovim-remote
+export PATH="/Users/glebtanaka/Library/Python/3.11/bin:$PATH"
 # Change ZSH Options
 
 # Create Aliases
