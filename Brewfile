@@ -1,6 +1,4 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.10"
 # Microsoft Azure CLI 2.0
@@ -15,6 +13,8 @@ brew "libssh2"
 brew "libgit2"
 # Modern replacement for 'ls'
 brew "exa"
+# Access GitHub's .gitignore boilerplates
+brew "gibo"
 # Distributed revision control system
 brew "git"
 # Git extension for versioning large files
