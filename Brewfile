@@ -1,6 +1,8 @@
 tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.10"
+brew "python@3.11"
 # Microsoft Azure CLI 2.0
 brew "azure-cli"
 # C library implementing the SSH2 protocol
@@ -27,8 +29,8 @@ brew "gradle"
 brew "httpie"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.11"
+# Pager program similar to more
+brew "less"
 # GUI for vim, made for macOS
 brew "macvim"
 # Mac App Store command-line interface
@@ -39,6 +41,8 @@ brew "maven"
 brew "minikube"
 # Node version management
 brew "n"
+# Free (GNU) replacement for the Pico text editor
+brew "nano"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Development kit for the Java programming language
@@ -47,6 +51,8 @@ brew "openjdk@17"
 brew "perl"
 # Object-relational database system
 brew "postgresql@15"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
 # Terminal multiplexer
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
@@ -71,10 +77,13 @@ cask "inkdrop"
 cask "postman"
 # Open-source code editor
 cask "visual-studio-code"
+# All-in-One Java Troubleshooting Tool
+cask "visualvm"
 mas "BetterSnapTool", id: 417375580
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
+mas "Microsoft OneNote", id: 784801555
 mas "MKPlayer", id: 1335612105
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
