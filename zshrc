@@ -29,6 +29,7 @@ export PATH="/Users/glebtanaka/Library/Python/3.11/bin:$PATH"
 alias ls='ls -lAFh'
 alias exa='exa -laFh --git'
 alias bbd='brew bundle dump --force --describe'
+alias trail='<<<${(F)path}'
 
 # Customize Promt(s)
 # Promt Statement                                                              
