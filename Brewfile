@@ -1,6 +1,4 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
 # Microsoft Azure CLI 2.0
@@ -73,6 +71,10 @@ cask "gitkraken"
 cask "google-chrome"
 # Markdown editor
 cask "inkdrop"
+# Keyboard customiser
+cask "karabiner-elements"
+# Password manager app
+cask "keepassxc"
 # Collaboration platform for API development
 cask "postman"
 # Open-source code editor
@@ -80,6 +82,7 @@ cask "visual-studio-code"
 # All-in-One Java Troubleshooting Tool
 cask "visualvm"
 mas "BetterSnapTool", id: 417375580
+mas "ClipTools", id: 1619348240
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
