@@ -51,6 +51,8 @@ brew "perl"
 brew "postgresql@15"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.10"
+# Microsoft SQL Server command-line interface
+brew "sqlcmd"
 # Terminal multiplexer
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
