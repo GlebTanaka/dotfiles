@@ -1,6 +1,4 @@
 tap "homebrew/bundle"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.11"
 # Microsoft Azure CLI 2.0
 brew "azure-cli"
 # C library implementing the SSH2 protocol
@@ -9,6 +7,8 @@ brew "libssh2"
 brew "libgit2"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Console Matrix
+brew "cmatrix"
 # Dependency manager for Cocoa projects
 brew "cocoapods"
 # Modern replacement for 'ls'
@@ -19,6 +19,8 @@ brew "gibo"
 brew "git"
 # Git extension for versioning large files
 brew "git-lfs"
+# C/C++ and Java libraries for Unicode and globalization
+brew "icu4c@76"
 # Development kit for the Java programming language
 brew "openjdk"
 # Open-source build automation tool based on the Groovy and Kotlin DSL
@@ -51,6 +53,8 @@ brew "perl"
 brew "postgresql@15"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.10"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
 # Microsoft SQL Server command-line interface
 brew "sqlcmd"
 # Terminal multiplexer
@@ -83,16 +87,21 @@ cask "postman"
 cask "visual-studio-code"
 # All-in-One Java Troubleshooting Tool
 cask "visualvm"
+# Rust-based terminal
+cask "warp"
 mas "BetterSnapTool", id: 417375580
 mas "ClipTools", id: 1619348240
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
+mas "Kindle", id: 302584613
 mas "LINE", id: 539883307
 mas "Microsoft OneNote", id: 784801555
 mas "MKPlayer", id: 1335612105
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 vscode "esbenp.prettier-vscode"
+vscode "github.copilot"
+vscode "github.copilot-chat"
 vscode "jdinhlife.gruvbox"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-vscode-remote.remote-containers"
