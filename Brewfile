@@ -1,4 +1,5 @@
 tap "homebrew/bundle"
+tap "sdkman/tap"
 # Microsoft Azure CLI 2.0
 brew "azure-cli"
 # C library implementing the SSH2 protocol
@@ -61,6 +62,8 @@ brew "sqlcmd"
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# SDKMAN! the Software Development Kit Manager
+brew "sdkman/tap/sdkman-cli"
 # Application launcher and productivity software
 cask "alfred"
 # Tools for the Android SDK
