@@ -49,6 +49,10 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 # Add n version manager for node
 export PATH="$PATH:$N_PREFIX/bin" # this is the variable for /Users/glebtanaka/.n
 
+# SDKMAN
+export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
+[[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
+
 # Write Handy Functions
 function mkcd() {
     mkdir -p "$@" && cd "$_";
