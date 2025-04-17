@@ -84,6 +84,8 @@ cask "karabiner-elements"
 cask "keepassxc"
 # Collaboration platform for API development
 cask "postman"
+# Command-line shell and scripting language
+cask "powershell"
 # Open-source code editor
 cask "visual-studio-code"
 # All-in-One Java Troubleshooting Tool
