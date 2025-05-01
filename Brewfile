@@ -62,6 +62,8 @@ brew "sqlcmd"
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
 # SDKMAN! the Software Development Kit Manager
 brew "sdkman/tap/sdkman-cli"
 # Application launcher and productivity software
@@ -92,16 +94,6 @@ cask "visual-studio-code"
 cask "visualvm"
 # Rust-based terminal
 cask "warp"
-mas "BetterSnapTool", id: 417375580
-mas "ClipTools", id: 1619348240
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Kindle", id: 302584613
-mas "LINE", id: 539883307
-mas "Microsoft OneNote", id: 784801555
-mas "MKPlayer", id: 1335612105
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
 vscode "esbenp.prettier-vscode"
 vscode "github.copilot"
 vscode "github.copilot-chat"
