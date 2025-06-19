@@ -14,6 +14,8 @@ brew "cmatrix"
 brew "cocoapods"
 # Modern replacement for 'ls'
 brew "exa"
+# GitHub command-line tool
+brew "gh"
 # Access GitHub's .gitignore boilerplates
 brew "gibo"
 # Distributed revision control system
