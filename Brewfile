@@ -42,6 +42,8 @@ brew "mas"
 brew "maven"
 # Run a Kubernetes cluster locally
 brew "minikube"
+# Open source relational database management system
+brew "mysql-client"
 # Node version management
 brew "n"
 # Free (GNU) replacement for the Pico text editor
