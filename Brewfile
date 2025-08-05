@@ -22,14 +22,14 @@ brew "gibo"
 brew "git"
 # Git extension for versioning large files
 brew "git-lfs"
-# C/C++ and Java libraries for Unicode and globalization
-brew "icu4c@76"
 # Development kit for the Java programming language
 brew "openjdk"
 # Open-source build automation tool based on the Groovy and Kotlin DSL
 brew "gradle"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# C/C++ and Java libraries for Unicode and globalization
+brew "icu4c@76"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
 # Pager program similar to more
@@ -68,6 +68,8 @@ brew "tmux"
 brew "tree"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
 # SDKMAN! the Software Development Kit Manager
 brew "sdkman/tap/sdkman-cli"
 # Application launcher and productivity software
@@ -98,9 +100,20 @@ cask "visual-studio-code"
 cask "visualvm"
 # Rust-based terminal
 cask "warp"
+mas "BetterSnapTool", id: 417375580
+mas "ClipTools", id: 1619348240
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Kindle", id: 302584613
+mas "LINE", id: 539883307
+mas "Microsoft OneNote", id: 784801555
+mas "MKPlayer", id: 1335612105
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 vscode "esbenp.prettier-vscode"
 vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "jdinhlife.gruvbox"
+vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-vscode-remote.remote-containers"
