@@ -14,6 +14,8 @@ brew "cmatrix"
 brew "cocoapods"
 # Modern replacement for 'ls'
 brew "exa"
+# Command-line fuzzy finder written in Go
+brew "fzf"
 # GitHub command-line tool
 brew "gh"
 # Access GitHub's .gitignore boilerplates
