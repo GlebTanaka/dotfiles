@@ -107,6 +107,9 @@ set undodir=~/.vim/undodir
 "   writing a buffer to a file, and restores undo history from the same        
 "   file on buffer read.                                                       
 set undofile                                                                   
+
+" fzf
+set rtp+=/opt/homebrew/opt/fzf
                                                                                
 " *key mapping*                                                                
 nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>           
