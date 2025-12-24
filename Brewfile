@@ -1,3 +1,4 @@
+tap "hashicorp/tap"
 tap "homebrew/bundle"
 tap "sdkman/tap"
 # Microsoft Azure CLI 2.0
@@ -76,7 +77,6 @@ brew "zoxide"
 brew "sdkman/tap/sdkman-cli"
 # Application launcher and productivity software
 cask "alfred"
-# Tools for the Android SDK
 cask "android-sdk"
 # Data management tool that enables working with SQL Server
 cask "azure-data-studio"
@@ -86,6 +86,8 @@ cask "dropbox"
 cask "gitkraken"
 # Web browser
 cask "google-chrome"
+# Development environment
+cask "hashicorp-vagrant"
 # Markdown editor
 cask "inkdrop"
 # Keyboard customiser
