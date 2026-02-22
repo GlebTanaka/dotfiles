@@ -80,6 +80,8 @@ cask "alfred"
 cask "android-sdk"
 # Data management tool that enables working with SQL Server
 cask "azure-data-studio"
+# Terminal-based AI coding assistant
+cask "claude-code"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Git client focusing on productivity
@@ -87,7 +89,7 @@ cask "gitkraken"
 # Web browser
 cask "google-chrome"
 # Development environment
-cask "hashicorp-vagrant"
+cask "hashicorp/tap/hashicorp-vagrant"
 # Markdown editor
 cask "inkdrop"
 # Keyboard customiser
