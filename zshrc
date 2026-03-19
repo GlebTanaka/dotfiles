@@ -25,6 +25,8 @@ export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 # export PATH="/opt/homebrew/anaconda3/bin:$PATH"  # commented out by conda initialize
 ## for neovim-remote
 export PATH="/Users/glebtanaka/Library/Python/3.11/bin:$PATH"
+## Junie
+export PATH="$HOME/.local/bin:$PATH"
 # Change ZSH Options
 
 # Create Aliases
