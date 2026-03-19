@@ -59,6 +59,8 @@ brew "openjdk@17"
 brew "perl"
 # Object-relational database system
 brew "postgresql@15"
+# Command-line shell and scripting language
+brew "powershell", link: false
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.10"
 # Interpreted, interactive, object-oriented programming language
@@ -77,11 +79,12 @@ brew "zoxide"
 brew "sdkman/tap/sdkman-cli"
 # Application launcher and productivity software
 cask "alfred"
-cask "android-sdk"
 # Data management tool that enables working with SQL Server
 cask "azure-data-studio"
 # Terminal-based AI coding assistant
 cask "claude-code"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Git client focusing on productivity
@@ -90,32 +93,16 @@ cask "gitkraken"
 cask "google-chrome"
 # Development environment
 cask "hashicorp/tap/hashicorp-vagrant"
-# Markdown editor
-cask "inkdrop"
 # Keyboard customiser
 cask "karabiner-elements"
-# Password manager app
-cask "keepassxc"
 # Collaboration platform for API development
 cask "postman"
 # Command-line shell and scripting language
 cask "powershell"
 # Open-source code editor
 cask "visual-studio-code"
-# All-in-One Java Troubleshooting Tool
-cask "visualvm"
 # Rust-based terminal
 cask "warp"
-mas "BetterSnapTool", id: 417375580
-mas "ClipTools", id: 1619348240
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Kindle", id: 302584613
-mas "LINE", id: 539883307
-mas "Microsoft OneNote", id: 784801555
-mas "MKPlayer", id: 1335612105
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
 vscode "esbenp.prettier-vscode"
 vscode "github.copilot"
 vscode "github.copilot-chat"
